@@ -1,0 +1,78 @@
+*{
+margin: 0;
+}
+.button{
+border: none;
+color: white;
+background-color: black;
+}
+.modal{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(77, 77, 77);
+    border-radius: 30px;
+    position: relative;
+    display:none
+}
+.sd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.none{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: modal;
+    animation-duration: 0.4s;
+}
+.none2{
+    display: none;
+    opacity: 1;
+}
+.cancel{
+position: absolute;
+left: 0;
+top: 0;
+width: 32px;
+height: 32px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+}
+.img-box{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+.img{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    animation-name: name;
+    animation-duration: 1s;
+}
+.like{
+    display: block;
+    border: none;
+  background-color: rgb(77, 77, 77); 
+}
+.new{
+    fill: blue;
+    scale: 1.2;
+}
+.random1{
+    position: absolute;
+}
+@keyframes modal {
+    0%{
+        scale: 0;
+    }
+    100%{
+        scale: 1;
+    }
+}
